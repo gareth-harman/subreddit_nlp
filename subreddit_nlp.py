@@ -22,7 +22,7 @@ def parse_args():
     parser.add_argument('-subreddit', default = 'gradschool')
     parser.add_argument('-sort_by_top', default = True)
     parser.add_argument('-n_posts', default = 100)
-    parser.add_argument('-en_path', default = '/Users/harmang/anaconda3/lib/python3.7/site-packages/spacy/data/en/en_core_web_sm-2.0.0')
+    parser.add_argument('-en_path', default = 'en_core')
     
     args = parser.parse_args()
     
@@ -170,7 +170,3 @@ if __name__ == "__main__":
     
     sns.distplot(np.array(sent_sum))
    
-'''
-python3 subreddit_nlp.py -id dhTZwx0r1c6pzw -secret t_2Vdve3C1R4TcyCphKAshbnKlU -user_agent tf -username hoardingstrings -sort_by_top 1 -subreddit gradschool -n_posts 1000
-python3 subreddit_nlp.py -id dhTZwx0r1c6pzw -secret t_2Vdve3C1R4TcyCphKAshbnKlU -user_agent tf -username hoardingstrings -sort_by_top 1
-'''
