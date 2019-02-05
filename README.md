@@ -2,6 +2,8 @@
 
 ### Python tool: Parse and examine NLP diagnostics from subreddit titles
 
+This tool allows users to retrieve the 'n' posts from a given subreddit's post titles in order to examine NLP metrics.  For example you can return a sentiment score for each title and plot the distribution of sentiment scores for all posts retrieved.  The user can also return the 'p' most common words or nouns from the retrieved posts.
+
 **Arguments** <br>
 `-id`
 - The client id required by PRAW's OAUTH2 client   <br>
