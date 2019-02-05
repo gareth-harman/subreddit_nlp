@@ -21,7 +21,7 @@
 
 `-sort_by_top`
 - If 0 it will retrieve posts by 'new'
-- *default: retrieve posts by **top of all time** * <br>
+- *default: retrieve posts by top of all time* <br>
 
 `-n_posts`
 - The number of posts to retrieve
