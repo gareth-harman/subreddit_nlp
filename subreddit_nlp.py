@@ -48,6 +48,8 @@ def scrape_reddit(id_val,
                          user_agent = user_agent_val,
                          username = username_val)
     
+    lim_val = int(lim_val) # Recast as integer for use with bash scripting
+    
     if by_top != 0:
         print('\tretrieving by top of all time')
         submissions = list(reddit.subreddit(sub_reddit).top(time_filter = 'all', limit=lim_val))
